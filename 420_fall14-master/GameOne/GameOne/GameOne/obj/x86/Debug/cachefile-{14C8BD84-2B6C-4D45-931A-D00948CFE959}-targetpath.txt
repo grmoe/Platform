@@ -1,0 +1,9 @@
+Content\Images\LadyZ.xnb
+Content\Images\chicken_walk.xnb
+Content\Images\basicplatform.xnb
+Content\Images\platform.xnb
+Content\Images\tronplatform.xnb
+Content\Images\result.xnb
+Content\Images\background.xnb
+Content\Images\newBackground.xnb
+Content\Images\smallenemy.xnb
