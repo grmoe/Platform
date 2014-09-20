@@ -29,3 +29,11 @@ C:\Users\crowcasso\Documents\GitHub\420_priv\GameOne\GameOne\GameOne\bin\x86\Deb
 \\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\background.xnb
 \\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\newBackground.xnb
 \\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\smallenemy.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\key.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\smallerenemy.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\smallerplatform.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\door.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\lockedDoor.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\openDoor.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\lockedDoor2.xnb
+\\cs.elon.edu\dschneider2\csc420\Platform\420_fall14-master\GameOne\GameOne\GameOne\bin\x86\Debug\Content\Images\openDoor2.xnb

@@ -15,6 +15,7 @@ namespace GameOne
         Vector2 friction = new Vector2(.5f, .5f);
         protected bool onGround = false;
         Vector2 oldPosition = new Vector2(-1, -1);
+        protected bool reverseGravity = false;
 
         public AutomatedSprite(SpriteSheet spriteSheet, Vector2 position, CollisionOffset collionOffset, Vector2 speed)
             : base(spriteSheet, position, collionOffset)
@@ -44,8 +45,18 @@ namespace GameOne
 
         public override void Update(GameTime gameTime, Rectangle clientBounds)
         {
+            
             velocity += direction;
-            velocity += gravity;
+            if (!reverseGravity)
+            {
+                velocity += gravity;
+                
+            }
+            else
+            {
+                velocity -= gravity;
+                
+            }
             velocity *= friction;
 
             // Is the sprite standing on something
@@ -56,7 +67,7 @@ namespace GameOne
                 velocity.Y = 0;
 
             position += velocity;
-            //System.Diagnostics.Debug.WriteLine(direction + ":" + position + ":" + velocity);
+            
 
             // If sprite is off the screen, move it back within the game window
             if (position.X < -collisionOffset.east)

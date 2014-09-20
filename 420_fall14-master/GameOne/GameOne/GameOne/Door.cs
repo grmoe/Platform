@@ -7,13 +7,13 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace GameOne
 {
-    class TronPlatform : AutomatedSprite
+    class Door : AutomatedSprite
     {
-        public TronPlatform(Texture2D texture, Vector2 myPosition)
+        public Door(Texture2D texture, Vector2 myPosition)
             : base(new SpriteSheet(texture, new Point(0, 0), 1.0f), myPosition,
-            new CollisionOffset(0, 0, 0, 0), new Vector2(0, 0))
+            new CollisionOffset(5, 5, 5, 5), new Vector2(0, 0))
         {
-            Point frameSize = new Point(124, 43);
+            Point frameSize = new Point(90, 125);
             spriteSheet.addSegment(frameSize, new Point(0, 0), new Point(0, 0), 10);
 
             spriteSheet.setCurrentSegment(0);
@@ -21,6 +21,7 @@ namespace GameOne
 
         public override void Update(GameTime gameTime, Rectangle clientBounds)
         {
+            //base.Update(gameTime, clientBounds);
         }
 
         public override void Collision(Sprite otherSprite)

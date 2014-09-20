@@ -30,8 +30,8 @@ namespace GameOne
 
             // resize the game
             graphics.IsFullScreen = false;
-            graphics.PreferredBackBufferHeight = 768;
-            graphics.PreferredBackBufferWidth = 1024;
+            graphics.PreferredBackBufferHeight = 1080;
+            graphics.PreferredBackBufferWidth = 1920;
         }
 
         /// <summary>

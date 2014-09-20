@@ -44,9 +44,15 @@ namespace GameOne
 
             player = new GlitchPlayer(Game.Content.Load<Texture2D>(@"Images/result"));
             //spriteList.Add(new Enemy(Game.Content.Load<Texture2D>(@"Images/smallenemy")));
-            //spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/tronplatform"), new Vector2(50, 110)));
-            //spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/tronplatform"), new Vector2(300, 300)));
-            //spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/tronplatform"), new Vector2(500, 500)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(230, 250)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(330, 650)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(830, 450)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(1230, 220)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(1230, 750)));
+            spriteList.Add(new TronPlatform(Game.Content.Load<Texture2D>(@"Images/smallerplatform"), new Vector2(1430, 500)));
+            spriteList.Add(new Door(Game.Content.Load<Texture2D>(@"Images/lockedDoor"), new Vector2(1700, 905)));
+            spriteList.Add(new Key(Game.Content.Load<Texture2D>(@"Images/key"), new Vector2(880, 375)));
+
 
             base.LoadContent();
         }
@@ -69,7 +75,7 @@ namespace GameOne
             // update each automated sprite
             foreach (Sprite sprite in spriteList)
                 sprite.Update(gameTime, Game.Window.ClientBounds);
-            ((UserControlledSprite)player).Update(gameTime, Game.Window.ClientBounds);
+            player.Update(gameTime, Game.Window.ClientBounds);
             base.Update(gameTime);
             
         }
